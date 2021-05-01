@@ -6,7 +6,7 @@ EDIT_TIMES = 19
 
 
 lol_ani = [ 
-            "WOW AB BOHOT MAJA AANE WALA HAI TO READY HO ZAO",
+            "Wow so much fun so get ready",
             "1..",
             "2...",
             "3....",
@@ -29,7 +29,7 @@ lol_ani = [
 ]
 @borg.on(a(pattern=r"hehe"))
 async def LEGENDX (event):
-  msg = await event.edit('DEKHNA AAB MAJA AAEGA 😂')
+  msg = await event.edit('It will be fun to watch 😂')
     for x in range(EDIT_TIMES):
         msg.edit_text(lol_ani[x%19],parse_mode='markdown')
         time.sleep(5)
